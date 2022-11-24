@@ -66,7 +66,7 @@ public class FilesController {
         return fileService.copy(dto);
     }
     @PostMapping("move")
-    @ApiOperation("移动文件")
+    @ApiOperation("移动文件或者文件夹")
     @ApiImplicitParams(
             {@ApiImplicitParam(name = "id", value = "要移动的文件id"),
                     @ApiImplicitParam(name = "to", value = "移动后的父级文件夹id")}
