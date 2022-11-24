@@ -1,0 +1,17 @@
+server:
+  port: 50002
+spring:
+  application:
+    name: file-system
+  cloud:
+    nacos:
+      discovery: #注册中心的地址
+        server-addr: 120.48.55.134:8848
+      config: #配置中心的地址
+        server-addr: 120.48.55.134:8848
+        file-extension: yml #配置文件的后缀
+      username: nacos #配置链接用户名
+      password: nacos  #配置链接密码
+  main:
+    allow-bean-definition-overriding: true
+

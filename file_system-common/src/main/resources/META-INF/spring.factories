@@ -1,0 +1,10 @@
+#自动装配配置
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.chenxinzhi.jackson.InitJacksonConfig,\
+  com.chenxinzhi.swagger.SwaggerConfiguration,\
+  com.chenxinzhi.exception.ExceptionCatch,\
+  com.chenxinzhi.mybatis.Config,\
+  com.chenxinzhi.web.config.WebMvcConfig
+
+  
+

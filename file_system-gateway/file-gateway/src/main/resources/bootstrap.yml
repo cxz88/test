@@ -1,0 +1,12 @@
+server:
+  port: 50000
+spring:
+  application:
+    name: file-gateway
+  cloud:
+    nacos:
+      server-addr: 120.48.55.134:8848  #配置注册中心以及配置中心的地址
+      config:
+        file-extension: yml #配置配置文件的后缀
+      username: nacos
+      password: nacos
